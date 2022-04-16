@@ -1,0 +1,17 @@
+﻿CREATE TABLE [dbo].[StudentInfo] (
+    [Id]            INT            NOT NULL IDENTITY,
+    [LastName]      NVARCHAR (20)  NULL,
+    [FirstName]     NVARCHAR (20)  NULL,
+    [MiddleName]    NVARCHAR (20)  NULL,
+    [Gender]        NVARCHAR (7)   NULL,
+    [Birthday]      DATETIME       NULL,
+    [ContactNumber] NVARCHAR (11)  NULL,
+    [Address]       NVARCHAR (200) NULL,
+    [Course]        NVARCHAR (100) NULL,
+    [Year]          NVARCHAR (50)  NULL,
+    [Section]       NVARCHAR (50)  NULL,
+    [SchoolAddress] NVARCHAR (200) NULL,
+    [Created]       DATETIME       NULL,
+    PRIMARY KEY CLUSTERED ([Id] ASC)
+);
+
